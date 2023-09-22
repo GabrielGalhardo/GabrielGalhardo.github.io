@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Livros</h1>
+    <link href="estilos.css" rel="stylesheet" />
+
+    <nav>
+      <a href="index.html">Retornar</a>
+    </nav>
+
+    <br />
+    
+    <fieldset>
+      <legend>Cadastro de livros</legend>
+      <form action="http://httpbin.org/post" method="post">
+        
+        <br />
+
+          <label for="titulo" aria-placeholder="Digite seu titulo"
+            ><strong>Título</strong>:</label
+          >
+          <input id="titulo" name="titulo"></input>
+
+          <br />
+          <br />
+
+          <label for="descricao" aria-placeholder="Digite o descricao"
+            ><strong>Descrição:</strong></label>
+          <textarea id="descricao" name="descricao" id="" cols="30" rows="10"></textarea>
+
+          <br />
+
+          <label for="descricao" aria-placeholder="Digite o descricao"
+            ><strong>Autores:</strong></label>
+          <input id="autores" name="autores"></input>
+
+          <br />
+
+            <label for="">Estilo</label>
+            <select name="academico" id="academico">
+                <option value="ACADEMICO">Academico</option>
+            </select>
+
+            <br />
+
+        <button type="submit">Adicionar</button>
+        <button type="submit">Limpar</button>
+      </form>
+      <br />
+    </fieldset>
+  </body>
+</html>
