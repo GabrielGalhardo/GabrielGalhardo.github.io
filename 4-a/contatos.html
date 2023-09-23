@@ -6,11 +6,23 @@
     <title>Contatos</title>
   </head>
 
+  <link rel="stylesheet" href="style.css">
+
   <body>
-    <h1>Contatos</h1>
-    <div>
-      <a href="index.html">Retornar</a>
-    </div>
+
+    <header>
+      <h1>Contatos</h1>
+      <i><h3>Exercícios</h3></i>
+    </header>
+
+    <section class="backgound-cinza">
+      <ul>
+        <li>
+          <a href="index.html">Retornar</a>
+        </li>
+      </ul>
+    </section>
+
     <br />
     <form action="http://httpbin.org/post" method="post">
       <fieldset>
@@ -89,8 +101,8 @@
         <br />
 
         <div>
-          <input type="submit" value="Confirmar" />
-          <input type="reset" value="Limpar" />
+          <button type="submit" name="confirmar" value="confirmar">confirmar</button>
+          <button type="reset" value="limpar" name="impar">Limpar</button>
         </div>
       </fieldset>
     </form>

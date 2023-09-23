@@ -4,25 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+    <header>
+      <h1>Login</h1>
+      <i><h3>Exercícios</h3></i>
+    </header>
+
+    <section class="backgound-cinza">
+      <ul>
+        <li>
+          <a href="index.html">Retornar</a>
+        </li>
+      </ul>
+    </section>
+    <br>
+
     <fieldset>
       <legend>Entre em contato conosco!</legend>
       <form action="http://httpbin.org/post" method="post">
-        <header>
-          <h1>Fundamentos da Web</h1>
-          <h3>Exercicios</h3>
-        </header>
-
-        <nav>
-          <a href="index.html">Retornar</a>
-        </nav>
-
         <br />
 
           <label for="login" aria-placeholder="Digite seu login"
-            ><strong>Login</strong>:</label
-          >
+            ><strong>Login</strong>:</label>
           <input id="login" name="login"></input>
 
         <br />
@@ -33,7 +39,7 @@
 
           <br />
 
-          <input type="submit" value="Login" />
+          <button type="submit" value="Login">Enviar</button>
       </form>
       <br />
     </fieldset>
