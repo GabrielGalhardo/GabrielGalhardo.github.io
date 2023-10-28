@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+}
+header, footer {
+    background-color: rgb(34, 19, 1);
+    color: #FFF;
+    text-align: center;
+}
+
+header {
+    padding: 3vh;
+}
+
+body > header > h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+body > header > p {
+    font-size: 10px;
+}
+
+header > nav > ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+header > nav > ul > li {
+    list-style: none;
+    padding: 5px 0;
+    background-color: rgb(168, 4, 70);
+    width: 90px;
+}
+
+header > nav > ul > li > a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.destaque {
+    background-color: rgb(215, 77, 40);
+    padding: 50px;
+    text-align: center;
+}
+
+article:nth-child(2) > section:nth-child(1) {
+    display: flex;
+}
+
+article:nth-child(2) > section:nth-child(1) > div {
+    padding: 50px;
+    text-align: center;
+}
+
+article:nth-child(2) > section:nth-child(1) > div > i {
+    font-size: 2em;
+}
+
+article:nth-child(2) > section:nth-child(1) > div > a {
+    padding: 8px 15px;
+    background-color: rgb(168, 4, 70);
+    width: 90px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+section > h2, section > p {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+body > main > article:nth-child(2) > section:nth-child(2) > div  {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+body > main > article:nth-child(2) > section:nth-child(2) > div > div{
+    padding: 40px;
+    text-align: center;
+}
+
+main > article:nth-child(2) > section:nth-child(2) > div > div > a {
+    padding: 8px 15px;
+    background-color: rgb(168, 4, 70);
+    width: 90px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer {
+    padding: 7vh;
+    margin-top: 3vh;
+    
+}
+
+footer > ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+footer > ul > li {
+    list-style: none;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: #FFF;
+}
